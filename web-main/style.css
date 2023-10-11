@@ -17,7 +17,7 @@ body
 }
 header
 {
-    background-color: lightblue;
+    background-color: mediumpurple;
 }
 main
 {
@@ -33,7 +33,7 @@ footer
 {
     padding: 0px 5px;
     border-top: 2px solid red;
-    background-color: gray;
+    background-color: mediumpurple;
 }
 ul, h1, h2, h3, h4, h5, h6
 {
@@ -77,7 +77,7 @@ button:hover
 {
     width: 80%;
     margin: 0 auto;
-    background-color:lightgray;
+    background-color:mediumpurple;
     padding: 30px;
 }
 .footer-flex
@@ -95,6 +95,7 @@ button:hover
 .logo-flex
 {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
