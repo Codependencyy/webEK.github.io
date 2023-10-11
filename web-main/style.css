@@ -77,7 +77,7 @@ button:hover
 {
     width: 80%;
     margin: 0 auto;
-    background-color:white;
+    background-color:rgb(87, 20, 65);
     padding: 30px;
 }
 .footer-flex
