@@ -18,7 +18,7 @@ body
 header
 {
     background-color: mediumpurple;
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid rgb(150, 15, 15);
 }
 main
 {
@@ -33,7 +33,7 @@ main
 footer
 {
     padding: 0px 5px;
-    border-top: 2px solid red;
+    border-top: 2px solid rgb(150, 15, 15);
     background-color: mediumpurple;
 }
 ul, h1, h2, h3, h4, h5, h6
