@@ -52,11 +52,11 @@ a
 {
     text-decoration: none;
     color: black;
-    font-family: american typewriter;
+    font-family: Comic Sans MS;
 }
 a:hover
 {
-    color: rgba(109, 14, 14, 0.74);
+    color: rgba(75, 6, 6, 0.74);
 }
 h1, h2, h3, h4, h5, h6, img, main, ul
 {
