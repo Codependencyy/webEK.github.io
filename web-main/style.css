@@ -62,7 +62,7 @@ h1, h2, h3
 }
 button
 {
-    background-color: pink;
+    background-color: rgb(179, 10, 10);
     font-size: 100px;
     padding: 12px 28px;
     border-radius: 12px;
@@ -71,8 +71,8 @@ button
 }
 button:hover
 {
-    background-color: palevioletred;
-    border: 2px solid pink;
+    background-color: rgb(104, 4, 4);
+    border: 2px solid rgb(32, 1, 1);
 }
 .wrapper
 {
