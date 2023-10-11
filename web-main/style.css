@@ -2,7 +2,7 @@ html
 {
     height: 100%;
 }
-h2
+h2, h3
 {
     color:red;
 }
@@ -13,12 +13,12 @@ body
     flex-direction: column;
     justify-content: space-between;
     margin: 0;
-    background-color: rgb(194, 97, 194);
+    background-color: mediumpurple;
 }
 header
 {
-    background-color: rgba(187, 108, 211, 0.637);
-    border-bottom: red;
+    background-color: mediumpurple;
+    border-bottom: 2px solid red;
 }
 main
 {
@@ -56,7 +56,7 @@ h1, h2, h3, h4, h5, h6, img, main, ul
 {
     padding: 10px;
 }
-h1, h2
+h1, h2, h3
 {
     text-shadow: 1px 1px 4px black;
 }
