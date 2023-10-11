@@ -42,6 +42,9 @@ ul, h1, h2, h3, h4, h5, h6
 }
 ul
 {
+    margin-top: 25px;
+    background: rgba(153, 54, 54, 0.603);
+    height: 50px;
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -51,6 +54,15 @@ ul
 a
 {
     text-decoration: none;
+    background: rgb(121, 40, 40);
+    color: black;
+    padding: 0px 15px;
+    line-height: 50px;
+    display: block;
+}
+a:hover
+{
+    background: rgba(109, 14, 14, 0.74);
 }
 h1, h2, h3, h4, h5, h6, img, main, ul
 {
