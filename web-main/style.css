@@ -1,9 +1,17 @@
+html
+{
+    height: 100%;
+}
 h2
 {
     color:hotpink;
 }
 body
 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin: 0;
     background-color: thistle;
 }
@@ -13,10 +21,17 @@ header
 }
 main
 {
+    padding: 0px 5px;
     background-color: mediumpurple;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 footer
 {
+    padding: 0px 5px;
     border-top: 2px solid red;
     background-color: gray;
 }
@@ -53,4 +68,23 @@ button:hover
 {
     background-color: palevioletred;
     border: 2px solid pink;
+}
+.wrapper
+{
+    width: 80%;
+    margin: 0 auto;
+    background-color:lightgray;
+    padding: 30px;
+}
+.footer-flex
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.resume-flex
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
