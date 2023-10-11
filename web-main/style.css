@@ -4,7 +4,7 @@ html
 }
 h2
 {
-    color:hotpink;
+    color:red;
 }
 body
 {
@@ -17,7 +17,8 @@ body
 }
 header
 {
-    background-color: mediumpurple;
+    background-color: rgba(187, 108, 211, 0.637);
+    border-bottom: red;
 }
 main
 {
