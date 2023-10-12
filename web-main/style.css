@@ -107,3 +107,9 @@ button:hover
     justify-content: flex-start;
     align-items: center;
 }
+form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
