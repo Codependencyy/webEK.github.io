@@ -119,19 +119,19 @@ form
     border: 2px solid rgb(85, 8, 8);
     box-shadow: 0 12px 16px 0 black, 0 17px 50px 0 black;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     flex-grow: 1; width: 200px;
     margin: 0 auto;
     padding: 30px;
-    width: 500px;
-    height: 700px;
+    width: 400px;
+    height: 500px;
 }
 .input
 {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin: 20px;
 }
 select
 {
