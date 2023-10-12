@@ -29,30 +29,14 @@
         <main>
             <div class="wrapper">
                 <h1>Форма</h1>
-                <form action="" method="get">
-                    <input type="submit" value="отправить вопрос">
-                    <input type="reset" value="очистить">
-                </form>
                 <div>
-                <div>Как вам удобно получить ответ:</div>
+                <div>Как Вам удобно получить ответ:</div>
                 <label for="c_mail">
                     <input type="radio" name="com_tion" id="c_mail"> по почте </label><br>
                 <label for="c_tel">
                     <input type="radio" name="com_tion" id="c_tel"> по телефону </label><br>
                 <label for="c_none">
                     <input type="radio" name="com_tion" id="c_none"> не нужно отвечать </label><br>
-                </div>
-                <div>
-                    <div> И еще один вопрос </div>
-                    <label for="chb1">
-                        <input type="checkbox" name="chb1" id="chb1">может так
-                    </label><br>
-                    <label for="chb2">
-                        <input type="checkbox" name="chb2" id="chb2">или не так
-                    </label><br>
-                    <label for="chb3">
-                        <input type="checkbox" name="chb3" id="chb3">иначе
-                    </label><br>
                 </div>
                 <div>
                     <label for="theme">
@@ -65,21 +49,39 @@
                     </select>
                 </div>
                 <div>
-                    <label for="example">Пример текстового поля</label><br>
+                    <div> И еще один вопрос? </div>
+                    <label for="chb1">
+                        <input type="checkbox" name="chb1" id="chb1">может так
+                    </label><br>
+                    <label for="chb2">
+                        <input type="checkbox" name="chb2" id="chb2">или не так
+                    </label><br>
+                    <label for="chb3">
+                        <input type="checkbox" name="chb3" id="chb3">иначе
+                    </label><br>
+                </div>
+                <div>
                     <input type="text"name="example"id="example"size="30"pattern="[A-Z]+"required>
                 </div>
                 <div>
-                    <label for="email">адрес почты</label>
+                    <label for="name">Ваше имя</label>
+                    <input type="name" name="name" id="name">
+                </div>
+                <div>
+                    <label for="email">Адрес почты</label>
                     <input type="email" name="email" id="email">
                 </div>
                 <div>
-                    <label for="tel">номер телефона</label>
+                    <label for="tel">Номер телефона</label>
                     <input type="tel" name="tel" id="tel">
                 </div>
                 <div>Ваш вопрос:</div>
                 <div>
                     <textarea cols="20"></textarea>
                 </div> 
+                <form action="" method="get">
+                    <input type="submit" value="отправить вопрос">
+                </form>
             </div>
         </main>
         <footer>
