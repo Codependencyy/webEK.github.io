@@ -139,7 +139,7 @@ select
 }
 textarea
 {
-    box-shadow: 0 5px 5px 0 black, 0 10px 15px 0 black;
+    box-shadow: 1px 1px 4px black;
 }
 table
 {
