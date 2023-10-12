@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <div class="logo-flex">
+                <img src="images/Nervlogo.jpg" alt="логотип" width="50">
+                <h2>Web-tehnology</h2>
+            </div>
+        <nav>
+            <div class="menu-flex">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="Resume.html">Резюме</a></li>
+                    <li><a href="Competente.html">Компетенции</a></li>
+                    <li><a href="photo.html">Фото</a></li>
+                    <li><a href="Form.html">Форма</a></li>
+                </ul>
+            </div>
+        </nav>
+        </div>
+    </header>
+        <main>
+            <div class="wrapper">
+                <h1>Форма</h1>
+                <form action="" method="get">
+                    <input type="submit" value="отправить вопрос">
+                    <input type="reset" value="очистить">
+                </form>
+                <div>
+                <div>Как вам удобно получить ответ:</div>
+                <label for="c_mail">
+                    <input type="radio" name="com_tion" id="c_mail"> по почте </label><br>
+                <label for="c_tel">
+                    <input type="radio" name="com_tion" id="c_tel"> по телефону </label><br>
+                <label for="c_none">
+                    <input type="radio" name="com_tion" id="c_none"> не нужно отвечать </label><br>
+                </div>
+                <div>
+                    <div> И еще один вопрос </div>
+                    <label for="chb1">
+                        <input type="checkbox" name="chb1" id="chb1">может так
+                    </label><br>
+                    <label for="chb2">
+                        <input type="checkbox" name="chb2" id="chb2">или не так
+                    </label><br>
+                    <label for="chb3">
+                        <input type="checkbox" name="chb3" id="chb3">иначе
+                    </label><br>
+                </div>
+                <div>
+                    <label for="theme">
+                        Укажите тему вопроса
+                    </label><br>
+                    <select name="theme" id="theme">
+                        <option value="work">работа</option>
+                        <option value="cooperation">сотрудничество</option>
+                        <option value="personal">личное</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="example">Пример текстового поля</label><br>
+                    <input type="text"name="example"id="example"size="30"pattern="[A-Z]+"required>
+                </div>
+                <div>
+                    <label for="email">адрес почты</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div>
+                    <label for="tel">номер телефона</label>
+                    <input type="tel" name="tel" id="tel">
+                </div>
+                <div>Ваш вопрос:</div>
+                <div>
+                    <textarea cols="20"></textarea>
+                </div> 
+            </div>
+        </main>
+        <footer>
+            <div class="wrapper">
+                <div class="footer-flex">
+                    <h6>2071, Елькова К.А.</h6>
+                    <div>
+                        <a href="https://t.me/HomelessVegetable" target="_blank"><img src="images/tg.png" alt="я в телеграмм" width="30"></a>
+                        <a href="https://github.com/Codependencyy" target="_blank"><img src="images/github.png" alt="я в GitHub" width="30"></a>
+                        <a href="https://vk.com/codependencyyyyyy" target="_blank"> <img src="images/wk.png" alt="я вкотанкте" width="30"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+</body>
+</html>
