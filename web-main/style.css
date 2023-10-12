@@ -65,6 +65,7 @@ h1, h2, h3, h4, h5, h6, img, main, ul
 h1, h2, h3
 {
     text-shadow: 1px 1px 4px black;
+    font-family: Comic Sans MS;
 }
 button
 {
