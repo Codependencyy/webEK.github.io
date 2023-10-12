@@ -107,6 +107,13 @@ button:hover
     justify-content: flex-start;
     align-items: center;
 }
+input
+{
+    width: 200px;
+    height: 15px;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid rgb(85, 8, 8);
+}
 form
 {
     display: flex;
