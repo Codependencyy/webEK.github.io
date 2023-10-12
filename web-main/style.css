@@ -121,7 +121,7 @@ form
     width: 450px;
     height: 450px;
     border: 2px solid rgb(85, 8, 8);
-    box-shadow: 0 12px 16px 0 black, 0 17px 50px 0 black;
+    box-shadow: 0 12px 16px 0 black, 0 17px 20px 0 black;
 }
 .input
 {
