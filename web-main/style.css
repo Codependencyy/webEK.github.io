@@ -77,11 +77,6 @@ h1, h2, h3
     cursor: pointer;
     font-family: Comic Sans MS;
 }
-button:hover
-{
-    background-color: rgb(104, 4, 4);
-    border: 2px solid rgb(32, 1, 1);
-}
 .wrapper
 {
     width: 80%;
