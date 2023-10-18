@@ -74,7 +74,13 @@
                 </div>
                 <div>Ваш вопрос:</div>
                 <div>
-                    <textarea cols="20"></textarea>
+                    <textarea cols="20" id="area" placeholder="Напишите сообщение здесь"></textarea>
+                    <br>
+                    <button onclick="localStorage.removeItem('area');area.value=''">Очистить</button>
+                    <script>
+                        area.value = localStorage.getItem('area');
+                        area.oninput = () => {localStorage.setItem('area', area.value)};
+                    </script>
                 </div> 
                     <input type="submit" value="отправить вопрос">
                 </form>
