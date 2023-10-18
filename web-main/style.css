@@ -67,7 +67,7 @@ h1, h2, h3
     text-shadow: 1px 1px 4px black;
     font-family: Comic Sans MS;
 }
-button
+.button
 {
     background-color: rgb(179, 10, 10);
     font-size: 100px;
