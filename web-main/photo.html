@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Задание 1</title>
+    <script>
+        function setSize1()
+        {
+            document.getElementById("pic1").style.width="100";
+        }
+    </script>
 </head>
 <body>
     <header>
@@ -47,7 +53,7 @@
         <div class="photo">
             <p>
             <figure>
-                <img src="images/ask.jpg" alt="Аска" width="200" height="200" class="round">
+                <img id="pic1" src="images/ask.jpg" alt="Аска" width="200" height="200" class="round">
                 <h3><figcaption>Аска Лэнгли Сорью</figcaption></h3>
             </figure>
             <figure>
@@ -72,6 +78,9 @@
             </figure>
             </p>
         </div>
+        <button onclick="setSize1()">100px</button>
+        <button onclick="setSize2()">200px</button>
+        <button onclick="setSize3()">300px</button>
         </div>
     </main>
     <footer>
