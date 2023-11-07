@@ -23,18 +23,27 @@
     <script>
         function setSize1()
         {
-            document.getElementById("pic").style.width="100px";
-            document.getElementById("pic").style.height="100px";
+            for(element of document.getElementsByClassName("size_image"))
+            {
+                element.style.width="100px";
+                element.style.height="100px"
+            }
         }
         function setSize2()
         {
-            document.getElementById("pic").style.width="200px";
-            document.getElementById("pic").style.height="200px";
+            for(element of document.getElementsByClassName("size_image"))
+            {
+                element.style.width="200px";
+                element.style.height="200px"
+            }
         }
         function setSize3()
         {
-            document.getElementById("pic").style.width="300px";
-            document.getElementById("pic").style.height="300px";
+            for(element of document.getElementsByClassName("size_image"))
+            {
+                element.style.width="300px";
+                element.style.height="300px"
+            }
         }
     </script>
 </head>
@@ -79,27 +88,27 @@
         <div class="photo">
             <p>
             <figure>
-                <img src="images/ask.jpg" alt="Аска" width="200" height="200" class="round" id="pic">
+                <img src="images/ask.jpg" alt="Аска" width="200" height="200" class="round" class="size_image">
                 <h3><figcaption>Аска Лэнгли Сорью</figcaption></h3>
             </figure>
             <figure>
-                <img src="images/mis.jpg" alt="Мисато" width="200" height="200" class="round" id="pic1">
+                <img src="images/mis.jpg" alt="Мисато" width="200" height="200" class="round" class="size_image">
                 <h3><figcaption>Мисато Кацураги</figcaption></h3>
             </figure>
             <figure>
-                <img src="images/rey.jpg" alt="Рей" width="200" height="200" class="round">
+                <img src="images/rey.jpg" alt="Рей" width="200" height="200" class="round" class="size_image">
                 <h3><figcaption>Рей Аянами</figcaption></h3>
             </figure>
             <figure>
-                <img src="images/ric.jpg" alt="Рицуко" width="200" height="200" class="round">
+                <img src="images/ric.jpg" alt="Рицуко" width="200" height="200" class="round" class="size_image">
                 <h3><figcaption>Рицуко Акаги</figcaption></h3>
             </figure>
             <figure>
-                <img src="images/sin.jpg" alt="Синдзи" width="200" height="200" class="round">
+                <img src="images/sin.jpg" alt="Синдзи" width="200" height="200" class="round" class="size_image">
                 <h3><figcaption>Синдзи Икари<figcaption></h3>
             </figure>
             <figure>
-                <img src="images/gen.jpg" alt="Гэндо" width="200" height="200" class="round">
+                <img src="images/gen.jpg" alt="Гэндо" width="200" height="200" class="round" class="size_image">
                 <h3><figcaption>Гэндо Икари</figcaption></h3>
             </figure>
             </p>
