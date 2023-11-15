@@ -36,61 +36,63 @@
     </header>
         <main id="color_main" onclick = "setColor()">
                 <h1 id="title_h1">Форма</h1>
-                <form action="" method="get">
-                <div class="form_flex">
-                <div>Как Вам удобно получить ответ:</div>
-                <label for="c_mail">
-                    <input type="radio" name="com_tion" id="c_mail"> по почте </label><br>
-                <label for="c_tel">
-                    <input type="radio" name="com_tion" id="c_tel"> по телефону </label><br>
-                <label for="c_none">
-                    <input type="radio" name="com_tion" id="c_none"> не нужно отвечать </label><br>
-                </div>
-                <div>
-                    <label for="theme">
-                        Укажите тему вопроса
-                    </label><br>
-                    <select name="theme" id="theme">
-                        <option value="work">работа</option>
-                        <option value="cooperation">сотрудничество</option>
-                        <option value="personal">личное</option>
-                    </select>
-                </div>
-                <div>
-                    <div> И еще один вопрос? </div>
-                    <label for="chb1">
-                        <input type="checkbox" name="chb1" id="chb1">может так
-                    </label><br>
-                    <label for="chb2">
-                        <input type="checkbox" name="chb2" id="chb2">или не так
-                    </label><br>
-                    <label for="chb3">
-                        <input type="checkbox" name="chb3" id="chb3">иначе
-                    </label><br>
-                </div>
-                <div class="input">
-                    <label for="name">Ваше имя</label>
-                    <input type="name" name="name" id="name">
-                </div>
-                <div class="input">
-                    <label for="email">Адрес почты</label>
-                    <input type="email" name="email" id="email">
-                </div>
-                <div class="input">
-                    <label for="tel">Номер телефона</label>
-                    <input type="tel" name="tel" id="tel">
-                </div>
-                <div>Ваш вопрос:</div>
-                <div>
-                    <textarea cols="35" id="area" placeholder="Напишите сообщение здесь"></textarea>
-                    <br>
-                    <button onclick="localStorage.removeItem('area');area.value=''">Очистить</button>
-                    <script>
-                        area.value = localStorage.getItem('area');
-                        area.oninput = () => {localStorage.setItem('area', area.value)};
-                    </script>
-                </div> 
-                    <input type="submit" value="отправить вопрос">
+                <form action="" method="get" class="div-flex-3">
+                    <div class="main-form">
+                        
+                        <div class="div-flex">
+                            
+                            <div>Как вам удобно получить вопрос?</div>
+                            <label for="c_mail"> 
+                            <input type="radio" name="com_tion" id="c_mail" value="по почте"> по почте</label>
+                            <label for="c_tel"> 
+                            <input type="radio" name="com_tion" id="c_tel" value="по телефону"> по телефону</label>
+                            <label for="c_none"> 
+                            <input type="radio" name="com_tion" id="c_none" value="не нужно отвечать"> не нужно отвечать</label>
+                        
+                        </div>
+    
+                        <div class="div-flex">
+                            <label for="tems">Укажите тему вопроса</label>
+                            <select id="tems" name="tems">
+                                <option value="tems1">Работа</option>
+                                <option value="tems2">Учеба</option>
+                                <option value="tems3">Отдых</option>
+                                <option value="tems4">Нужной темы нет</option>
+                            </select>
+                        </div>
+    
+                        <div class="div-flex">
+                            <div>И еще один вопрос?</div>
+                            <label for="chb1"> <input type="checkbox" name="chb1" id="chb1"> А</label>
+                            <label for="chb2"> <input type="checkbox" name="chb2" id="chb2"> Б</label>
+                            <label for="chb3"> <input type="checkbox" name="chb3" id="chb3"> В</label>
+                        </div>
+    
+                        <div class="form-width" >
+                            <div class="div-flex-2">
+                                <label for="name">Ваше имя</label>
+                                <input type="name" name="name" id="name">
+                            </div>
+                            <div class="div-flex-2">
+                                <label for="email">Адрес почты</label>
+                                <input type="email" name="email" id="email">
+                            </div>
+                            <div class="div-flex-2">
+                                <label for="phone">Телефон</label>
+                                <input type="phone" name="phone" id="phone">
+                            </div>
+                        </div>
+    
+                        <div class="div-flex-3">
+                            <label for="email">Ваш вопрос:</label>
+                            <textarea id="area" cols="35"></textarea>
+                        </div>
+                        
+                        <div class="div-flex-get form-width">
+                            <input type="submit" value="Отправить запрос">
+                            <input type="submit" value="Очистить поля">
+                        </div>
+                    </div>
                 </form>
                 <button onclick="setColor()">Сменить цвет</button>
         </main>
