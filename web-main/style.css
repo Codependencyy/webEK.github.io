@@ -105,10 +105,12 @@ h1, h2, h3
 input
 {
     border: 1px solid rgb(85, 8, 8);
-    padding-bottom: 5px;
+    padding-bottom: 15px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: flex-start;
+    align-items: center
 }
 form
 {
