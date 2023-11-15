@@ -37,7 +37,7 @@
         <main id="color_main" onclick = "setColor()">
                 <h1 id="title_h1">Форма</h1>
                 <form action="" method="get">
-                <div>
+                <div class="form_flex">
                 <div>Как Вам удобно получить ответ:</div>
                 <label for="c_mail">
                     <input type="radio" name="com_tion" id="c_mail"> по почте </label><br>
@@ -82,7 +82,7 @@
                 </div>
                 <div>Ваш вопрос:</div>
                 <div>
-                    <textarea cols="20" id="area" placeholder="Напишите сообщение здесь"></textarea>
+                    <textarea cols="35" id="area" placeholder="Напишите сообщение здесь"></textarea>
                     <br>
                     <button onclick="localStorage.removeItem('area');area.value=''">Очистить</button>
                     <script>
