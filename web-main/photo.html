@@ -36,7 +36,7 @@
             var likeCount = element.dataset.likes;
             likeCount++;
             element.dataset.likes = likeCount;
-            element.nextElementSibling = 'Лайков: ' + likeCount;
+            element.nextElementSibling.innerText = 'Лайков: ' + likeCount;
         }
         function setSize1()
         {
