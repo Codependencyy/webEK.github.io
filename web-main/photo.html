@@ -34,6 +34,19 @@
         }
     </style>
     <script>
+        function likePhoto(element) {
+            // Получаем текущий счетчик лайков
+            var likeCount = parseInt(element.dataset.likes) || 0;
+
+            // Увеличиваем счетчик на 1
+            likeCount++;
+
+            // Обновляем атрибут data-likes
+            element.dataset.likes = likeCount;
+
+            // Обновляем текст счетчика лайков
+            element.nextElementSibling.innerText = 'Лайков: ' + likeCount;
+        }
         function setSize1()
         {
             for(element of document.getElementsByClassName("size_image"))
