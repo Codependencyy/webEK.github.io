@@ -6,6 +6,19 @@
     <link rel="stylesheet" href="style.css">
     <title>Задание 1</title>
     <style>
+        .like-button {
+            background-color: rgb(0, 128, 255);
+            color: white;
+            border: none;
+            border-radius: 2px;
+            padding: 5px 10px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+        .like-count {
+            margin-top: 5px;
+            font-size: 14px;
+        }
         button
         {
             background-color: rgb(179, 10, 10);
@@ -90,6 +103,8 @@
             <figure>
                 <img src="images/ask.jpg" alt="Аска" width="200" height="200"  class="round size_image">
                 <h3><figcaption>Аска Лэнгли Сорью</figcaption></h3>
+                <button class="like-button" onclick="likePhoto(this)" data-likes="0">Лайк</button>
+                <div class="like-count">Лайков: 0</div>
             </figure>
             <figure>
                 <img src="images/mis.jpg" alt="Мисато" width="200" height="200" class="round size_image">
