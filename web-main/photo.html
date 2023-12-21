@@ -7,7 +7,7 @@
     <title>Задание 1</title>
     <style>
         .like-button {
-            background-color:darkred;
+            background-color:red;
             color: white;
             border-radius: 2px;
             padding: 5px 10px;
@@ -33,17 +33,11 @@
         }
     </style>
     <script>
-        function likePhoto(element) {
-            // Получаем текущий счетчик лайков
-            var likeCount = parseInt(element.dataset.likes) || 0;
-
-            // Увеличиваем счетчик на 1
+        function likePhoto(element) 
+        {
+            var likeCount = parseInt(element.dataset.likes);
             likeCount++;
-
-            // Обновляем атрибут data-likes
             element.dataset.likes = likeCount;
-
-            // Обновляем текст счетчика лайков
             element.nextElementSibling.innerText = 'Лайков: ' + likeCount;
         }
         function setSize1()
