@@ -29,7 +29,7 @@
     <script>
         function likePhoto(element) 
         {
-            var likeCount = 0;
+            var likeCount = element.dataset.likes;
             likeCount++;
             element.dataset.likes = likeCount;
             element.nextElementSibling.innerText = 'Лайков: ' + likeCount;
