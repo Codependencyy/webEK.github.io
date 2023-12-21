@@ -36,7 +36,7 @@
             var likeCount = element.dataset.likes;
             likeCount++;
             element.dataset.likes = likeCount;
-            element.nextElementSibling.innerText = 'Лайков: ' + likeCount;
+            element.nextElementSibling = likeCount;
         }
         function setSize1()
         {
@@ -108,7 +108,7 @@
                 <img src="images/ask.jpg" alt="Аска" width="200" height="200"  class="round size_image">
                 <h3><figcaption>Аска Лэнгли Сорью</figcaption></h3>
                 <button class="like-button" onclick="likePhoto(this)" data-likes="0">Лайк</button>
-                <div class="like-count">Лайков: 0</div>
+                <div class="like-count">0</div>
             </figure>
             <figure>
                 <img src="images/mis.jpg" alt="Мисато" width="200" height="200" class="round size_image">
